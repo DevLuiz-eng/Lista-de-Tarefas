@@ -20,9 +20,9 @@ function MostrarnovaTarefa() {
     newLi =
       newLi +
       ` <li class="task ${item.concluida && "done"}">
-                    <img src="/img/verificado.png" onclick="beGreen(${posicao})" alt="">
+                    <img src="./img/verificado.png" onclick="beGreen(${posicao})" alt="">
                     <p>${item.Tarefa}</p>
-                    <img src="/img/trash.png" alt="" onclick="deletarItem(${posicao})">
+                    <img src="./img/trash.png" alt="" onclick="deletarItem(${posicao})">
                 </li>`;
   });
 
